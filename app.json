@@ -1,0 +1,56 @@
+{
+  "pages": [
+    
+    "pages/login/login",
+    "pages/my/my",
+    "pages/article/article",
+    "pages/essay-3/essay-3",
+    "pages/essay-2/essay-2",
+    "pages/essay-1/essay-1",
+    "pages/check/check",
+    "pages/count/count",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/result/result",
+    "pages/new/new",
+    "pages/tag/tag",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EEE",
+    "navigationBarTitleText": "小智记账",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#5e81bf",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/bill.png",
+        "selectedIconPath": "images/billhl.png"
+      },
+      {
+        "pagePath": "pages/count/count",
+        "text": "统计",
+        "iconPath": "images/statistics.png",
+        "selectedIconPath": "images/statisticshl.png"
+      },
+      {
+        "pagePath": "pages/article/article",
+        "text": "知识",
+        "iconPath": "images/know.png",
+        "selectedIconPath": "images/knowhl.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/myhl.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

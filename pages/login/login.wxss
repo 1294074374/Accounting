@@ -1,0 +1,13 @@
+/* pages/login/login.wxss */
+
+.btn-login {
+  background-color: #333;
+  border-radius: 0;
+  height: 80rpx;
+  width: 250rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  color: #fff;
+  background-color: #009ed6;
+  border-radius: 10rpx;
+}

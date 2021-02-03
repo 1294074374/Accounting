@@ -1,0 +1,26 @@
+.title{
+  margin-top: 10%;
+  margin-block: 10%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.main{
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 5%;
+}
+
+.main view{
+  text-indent: 2em;
+  text-align: left;
+  margin-top: 3%;
+}
+
+.foot{
+  float: right;
+  margin-top: 10%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-block: 15%;
+}

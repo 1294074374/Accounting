@@ -1,0 +1,23 @@
+<view class="check-logo-vue">
+  <view>
+    <image class="check-logo" src="../../images/logo.png"></image>
+  </view>
+  <view  class="check-txt">
+    <text>小智记账 申请获得</text>
+  </view>
+</view>
+<view  class="check-middle-txt">
+    <text>以下权限</text>
+</view>
+<view class="check-foot-vue">
+  <view>
+    <image class="check-check" src="../../images/check.png"></image>
+  </view>
+  <view class="check-foot-txt">
+    <text>获得你的公开信息（昵称、头像、地区以及性别）</text>
+  </view>
+</view>
+<view class="check-button">
+    <button class="btn-check hidlen" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  <!-- <button class="btn-check" open-type="getPhoneNumber" lang="zh_CN" bindgetphonenumber="bindGetPhoneNumber">授权登录</button> -->
+</view>

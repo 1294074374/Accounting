@@ -1,0 +1,60 @@
+<!--pages/list/list.wxml-->
+<!--列表页-->
+<view class='container'>
+  <!--顶部标题栏-->
+  <view class='page-header'>
+    <text class='page-title'>{{title}}</text>
+  </view>
+  <!--列表-->
+  <view class='page-body' wx:key="id">
+    <!--类型判断,显示不同的数据-->
+    <view bindtap="goToEssay1">
+      <view class='item'>
+        <image class='poster' src='../../images/arcitle-img-1.png'></image>
+        <view class='meta'>
+          <text class='title'>理财月赚3000？你需要读懂生命周期理财法！</text>
+          <text class='sub-title'>毕竟每个人的人生阶段、生活重心、财务状况不同，理财自然也不可能有现成的模版。</text>
+          <view class='artists'>
+            <text>小淼 2021-1-15</text>
+          </view>
+          <view class='rating'>
+            <text>{{item.subject.rating.average}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view bindtap="goToEssay2">
+      <view class='item'>
+        <image class='poster' src='../../images/arcitle-img-2.png'></image>
+        <view class='meta'>
+          <text class='title'>4个理财小知识，你应当知道</text>
+          <text class='sub-title'>每月自己查看信用卡账单的时候，发现支出一直在增加，感觉再多的收入也不够花</text>
+          <view class='artists'>
+            <text>平安好福利 2020-10-30</text>
+          </view>
+          <view class='rating'>
+            <text>{{item.subject.rating.average}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view bindtap="goToEssay3">
+      <view class='item'>
+        <image class='poster' src='../../images/arcitle-img-3.png'></image>
+        <view class='meta'>
+          <text class='title'>专题丨理财小常识</text>
+          <text class='sub-title'>理财要养成的六个习惯</text>
+          <view class='artists'>
+            <text>融聚在线 2020-10-17</text>
+          </view>
+          <view class='rating'>
+            <text>{{item.subject.rating.average}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  
+</view>

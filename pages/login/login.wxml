@@ -1,0 +1,21 @@
+
+<!--pages/login/login.wxml-->
+<view class="top-bgimage">
+  <view class="container">
+    <view class="userinfo" wx:if="{{!isLogin}}">
+      <image class="userinfo-avatar" src="../../images/login-new.png" background-size="cover"></image>
+      <text class="userinfo-nickname">请登录</text>
+    </view>
+    <view class="userinfo" wx:if="{{isLogin}}">
+      <image class="userinfo-avatar" src="{{avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{nickName}}</text>
+    </view>
+  </view>
+</view>
+<view class="main-body">
+  <form bindsubmit="formLogin">
+    <view>
+      <button class="btn-login" bindtap="getUserInfo"> 登录 </button>
+    </view>
+  </form>
+</view>

@@ -1,0 +1,53 @@
+/* pages/login/login.wxss */
+
+.check-logo-vue{
+  display: flex;
+  margin-left: 80rpx;
+  margin-top: 120rpx;
+}
+
+.check-logo {
+  height: 80rpx;
+  width:  80rpx;
+}
+
+.check-txt{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.check-middle-txt{
+  margin-top: 40rpx;
+  margin-left: 80rpx;
+  font-size: 55rpx;
+}
+
+.check-foot-vue{
+  display: flex;
+  align-items: center;
+  margin-top: 30rpx;
+  margin-left: 80rpx;
+}
+
+.check-check{
+  height: 50rpx;
+  width:  50rpx;
+}
+
+.check-foot-txt{
+  margin-left: 20rpx;
+  width: 550rpx;
+}
+
+.check-button{
+  margin-top: 150rpx;
+}
+
+.btn-check{
+  width: 650rpx;
+  height: 100rpx;
+  font-size: small;
+  color: #fff;
+  border-radius: 10rpx;
+  background-color: #00A7E4;
+  line-height: 100rpx;
+}
